@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class addWithoutplus {
+    public static int add(int a,int b){
+        for(int i=5;i<=b;i++){
+            a++;
+        }
+        return a;
+    }
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter first number:");
+        int x=sc.nextInt();
+        System.out.print("enter second number:");
+        int y=sc.nextInt();
+        int result=add(x,y);
+        System.out.println("sum without'+'is:"+result);
+    }
+}
+        
