@@ -1,0 +1,26 @@
+public class program{
+    public static void main(String[]args){
+        int number=-10;
+        int status;
+        if(number>0){
+          status=1;
+        }else{
+            status=0;
+        }
+        switch(status){
+            case 1:
+                 System.out.println("the number is positive");
+       break;
+       case 0:
+           System.out.println("the number is not positive");
+           break;
+           default:
+           System.out.println("uexpected status");
+        }
+        System.out.println("counting from 2 to 5 :");
+        for(int i=2;i<=5;i++){
+            System.out.println("count: "+i);
+           
+        }
+    }
+}
