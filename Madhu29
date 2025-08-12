@@ -1,0 +1,19 @@
+
+
+import java.util.*;
+
+public class RemoveDuplicates {
+    public static void main(String[] args) {
+        int[] arr = {11, 43, 67, 45, 23, 11, 67, 45};
+
+        // Using LinkedHashSet to maintain insertion order and remove duplicates
+        Set<Integer> set = new LinkedHashSet<>();
+        for (int num : arr) {
+            set.add(num);
+        }
+
+        // Printing the result
+        System.out.println(set);
+    }
+}
+
