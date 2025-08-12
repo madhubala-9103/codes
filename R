@@ -1,0 +1,12 @@
+public class CommonNumbers{
+    public static void main(String[] args){
+        int arr1[]={1,4,7,9,3};
+        int a2[]=new int [arr1.length];
+        int c=0;
+        for(int i=arr1.length-1;i>=0;i--){
+            a2[c]=arr1[i];
+            c++;
+            System.out.println(arr1[i]);
+        }
+    }
+}
