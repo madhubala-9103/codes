@@ -1,0 +1,16 @@
+public class String2DarrayExample{
+    public static void main(String[]args){
+        String[][] fruits ={
+            {"apple","Banana","cherry"},
+            {"Mango","orange","grapes"},
+            {"pineapple","papaya","kiwi"}
+        };
+        System.out.println("fruits in 2D array:");
+        
+        for(int i=0;i<fruits.length;i++)
+        for(int j=0; j<fruits[i].length;j++){
+            System.out.print(fruits[i][j]+"\t");
+        }
+        System.out.println();
+        }
+    }
